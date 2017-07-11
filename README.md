@@ -33,12 +33,17 @@ Take a look at the html:
 
 Functions are reusable sections of code. They are given 0, 1, or many parameters and operate on the page.
 
-They look like:
+Functions look like:
 
 ```js
 function functionName(paramter) {
   // code
 }
+```
+
+Functions are called like:
+```js
+ functionName(value);
 ```
 
 Don't worry too much about them now. Just know that you can call existing functions.
