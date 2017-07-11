@@ -59,5 +59,5 @@ Find the functions in this project. Look in all the JavaScript files!
 
 # Reference:
 
-https://api.jquery.com/click/
-https://api.jquery.com/nth-child-selector/
+* https://api.jquery.com/click/
+* https://api.jquery.com/nth-child-selector/
