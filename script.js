@@ -16,7 +16,7 @@ $("document").ready(function() {
 
 function updateColumn(number) {
   $element = $("#funhouse section:nth-child(" + number + ")");
-  $element.css('background-color', randomBackgroundColor());
+  $element.css('background-color', randomColumnColor());
   dog = randomDog();
   $element.find('h3').html(dog.name);
   $element.find('img').attr('src', dog.image);
