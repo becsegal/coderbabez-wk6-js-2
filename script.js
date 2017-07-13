@@ -6,12 +6,19 @@ $("document").ready(function() {
   updateColumn(1);
   updateColumn(2);
   updateColumn(3);
+  updateColumn(4);
 
   $("#changeButton").click(function() {
     updateColumn(1);
     updateColumn(2);
     updateColumn(3);
+    updateColumn(4);
   });
+
+  $("#changeBackground").click(function() {
+    $('body').css('background-color', randomBackgroundColor());
+  });
+
 });
 
 function updateColumn(number) {
